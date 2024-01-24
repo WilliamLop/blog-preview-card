@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    body {
+        font-family: "Figtree", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    main{
+        box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.83);
+        -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.83);
+        -moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.83);
+    }
+}
+
